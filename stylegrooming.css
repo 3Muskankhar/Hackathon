@@ -1,0 +1,111 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(185, 241, 241);
+  }
+  
+  header {
+    background-color: #9ddee9;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  nav li.active a {
+    font-weight: bold;
+  }
+  
+  main {
+    padding: 50px;
+  }
+  
+  .banner {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .banner h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .banner img {
+    width:20%;
+    margin: 0 auto;
+  }
+  
+  .banner p {
+    margin-bottom: 20px;
+  }
+  
+  .banner button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .services {
+    margin-bottom: 50px;
+  }
+  
+  .services h3 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  .services ul {
+    list-style: disc;
+    padding: 0;
+    /* margin:  */
+} 
+     
+    .BB{
+       display: flex;
+       flex-direction: row;
+       justify-content: space-evenly;
+    }
+   .image{
+    background-size: contain;
+    padding: 20px 0px 15px;
+   }
+
+    .EC{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .BB img{
+        width: 15%;
+        margin: 0 auto;
+    }
+
+    footer{
+        text-align: right;
+    }

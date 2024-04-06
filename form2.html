@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dog Adoption Form</title>
+</head>
+<body>
+
+<h2>Dog Adoption Application Form</h2>
+
+<form action="submit_adoption.php" method="post">
+  <label for="applicant_name">Applicant's Name:</label><br>
+  <input type="text" id="applicant_name" name="applicant_name" required><br><br>
+
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email" required><br><br>
+
+  <label for="phone">Phone Number:</label><br>
+  <input type="tel" id="phone" name="phone" required><br><br>
+
+  <label for="address">Address:</label><br>
+  <textarea id="address" name="address" rows="4" required></textarea><br><br>
+
+  <label for="dog_name">Dog's Name (if specified):</label><br>
+  <input type="text" id="dog_name" name="dog_name"><br><br>
+
+  <label for="dog_breed">Preferred Dog Breed:</label><br>
+  <input type="text" id="dog_breed" name="dog_breed" required><br><br>
+
+  <label for="experience">Experience with Dogs:</label><br>
+  <textarea id="experience" name="experience" rows="4" required></textarea><br><br>
+
+  <label for="living_situation">Living Situation:</label><br>
+  <textarea id="living_situation" name="living_situation" rows="4" required></textarea><br><br>
+
+  <label for="reason">Reason for Adoption:</label><br>
+  <textarea id="reason" name="reason" rows="4" required></textarea><br><br>
+
+  <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
