@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Find Your Furry Friend</title>
+  <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+  
+
+  <!-- <nav>
+    <h1>PetClap</h1>
+    <a href="#report-lost-pet" class="active">Report Lost Pet</a>
+    <a href="#found-pets">Browse Found Pets</a>
+    <a href="#shelters">Local Shelters & Resources</a>
+  </nav> -->
+  <header>
+    <div class="at">
+        
+   
+  </header>
+
+  <hr>
+
+  <main>
+    <section id="report-lost-pet">
+      <h2>Report a Lost Pet</h2>
+      <p>Fill out the form below to report your lost pet. We recommend contacting your local shelters directly as well.</p>
+      <form action="submit_report.php" method="post" id="lost-pet-form">
+        
+        <div class="form-group">
+          <label for="pet-type">Pet Type:</label>
+          <select name="pet-type" id="pet-type" required>
+            <option value="">Select...</option>
+            <option value="dog">Dog</option>
+            <option value="cat">Cat</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="pet-name">Pet Name:</label>
+          <input type="text" name="pet-name" id="pet-name" required>
+        </div>
+        <div class="form-group">
+          <label for="pet-breed">Breed (if applicable):</label>
+          <input type="text" name="pet-breed" id="pet-breed">
+        </div>
+        </div><div class="form-group">
+          <label for="pet-description">Description:</label>
+          <textarea name="pet-description" id="pet-description" rows="5" required></textarea>
+        </div>
+        
+        <div class="form-group">
+          <label for="pet-photo">Photo (optional):</label>
+          <input type="file" name="pet-photo" id="pet-photo">
+        </div></div>
+        <div class="form-group">
+          <label for="last-seen">Last Seen:</label>
+          <input type="text" name="last-seen" id="last-seen" placeholder="Street address or landmark">
+        </div>
+        <div class="form-group">
+          <label for="contact-info">Contact Information:</label>
+          <input type="text" name="contact-info" id="contact-info" placeholder="Phone number or email" required>
+        </div>
+        <button type="submit">Submit Report</button></div>
+      </form>
+    </section>
+
+    <section id="found-pets">
+      <h2>Found Pets</h2>
+      <p>Looking to reunite lost pets with their families? Browse through a list of found pets below.</p>
+      <section id="vt"><div><img src="Dog_niemiecki_żółty_LM980.jpg" width="200px" alt="">
+        <br>Name: Tommy <br> Found at: Colony Park,Sector 12, Chandigarh<hr></div>
+      <div><img src="cat image.jpeg" width="350px" alt=""> <br> Name: Kitto <br> Found at: Modern Park, Chandigarh<hr></div>
+      <div><img src="rabbit.webp" width="350px" alt=""> <br> Name: bunno <br> Found at: Sector-21 road, Chandigarh <hr></div>
+      <ul id="found-pets-list">
+        </ul>
+    </section>
+
+    <section id="shelters">
+      <h2>Local Shelters & Resources</h2>
+      <p>Here's a list of local shelters and animal control agencies that you can contact to report a lost pet or inquire about found animals.</p>
+      <ul class="shelter-list">
+        <li>
+          <h3>City Animal Shelter</h3>
+          
+          <p>Address: Sector 65, Panchkula</p>
+          <p>Phone: (555) 555-1234</p>
+          <a href="mailto:shelter@anytown.gov">Click for Email</a>
+         <hr>
+        
+            <h3>Animal Care Hub</h3>
+            <p>Address: Sector 12 Main Street, Chandigarh</p>
+            <p>Phone: (655) 575-1894</p>
+            <a href="mailto:shelter@anytown.gov">Click for Email</a>
+          <hr>
+          
+            <h3>Love Pets Shelter</h3>
+            <p>Address: Sector 25, Modern Street, Chandigarh</p>
+            <p>Phone: (785) 590-6794</p>
+            <a href="mailto:shelter@anytown.gov">Click for Email</a>
+          </li>
+        </ul>
+    </section>
+  </main>
+
+  <footer><p>&copy; 2024 PetClap Pets, All Rights Reserved.</p></footer>
+
+</body
