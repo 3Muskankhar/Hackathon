@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetClap - Healthcare</title>
+    <link rel="stylesheet" href="istyles.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <a href="../index.html">PetClap</a>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Healthcare</a></li>
+            <li><a href="#">Grooming</a></li>
+            <li><a href="#">Lost And Found</a></li>
+            <li><a href="#">Adoption</a></li>
+            <li><a href="#">Chandigarh, India</a></li>
+            <li><a href="#">Login</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section class="hero">
+        <img src="https://www.shutterstock.com/image-photo/vet-examining-dog-cat-puppy-600nw-1479238910.jpg" alt="Pet healthcare">
+        <h1>Your Pet's Healthcare Partner</h1>
+        <p>Schedule appointments, find vets, and learn about pet health.</p>
+        <a href="#" class="btn">Book Now</a>
+    </section>
+
+    <section class="services">
+        <h2>Our Healthcare Services</h2>
+        <div class="service-grid">
+            <div class="service">
+                <img src="https://nationaltoday.com/wp-content/uploads/2022/06/National-Pet-Wellness-Month-1200x834.jpg" alt="Pet wellness">
+                <h3>Wellness Exams</h3>
+                <p>Regular checkups to ensure your pet's overall health.</p>
+            </div>
+            <div class="service">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTR6eT7QniGV6m8QBXG9AGSwQNPABbEUuZmfHILukkZug&s" alt="Pet vaccination">
+                <h3>Vaccinations & Parasite Prevention</h3>
+                <p>Protect your pet from preventable diseases and parasites.</p>
+            </div>
+            <div class="service">
+                <img src="https://img.freepik.com/free-photo/close-up-veterinarian-taking-care-pet_23-2149143884.jpg" alt="Pet surgery">
+                <h3>Surgery</h3>
+                <p>Advanced surgical procedures performed by experienced vets.</p>
+            </div>
+            <div class="service">
+                <img src="https://media.istockphoto.com/id/951028260/photo/close-up-of-examining-dogs-dental-health-at-vets-office.jpg?s=612x612&w=0&k=20&c=k1T1yWKss-R_90egdb8_y7RT35SqHhdNlMvGKbRmLqY=" alt="Pet dental care">
+                <h3>Dental Care</h3>
+                <p>Cleaning, extractions, and other dental procedures for your pet.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="appointment">
+        <h2>Book Now - It's Easy!</h2>
+        <p>Schedule an appointment for your pet's next checkup or consultation.</p>
+        <form action="#">
+            <div class="form-group">
+                <label for="petName">Pet's Name:</label>
+                <input type="text" id="petName" name="petName" required>
+            </div>
+            <div class="form-group">
+                <label for="petSpecies">Pet Species:</label>
+                <select id="petSpecies" name="petSpecies">
+                    <option value="dog">Dog</option>
+                    <option value="cat">Cat</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="serviceType">Service Type:</label>
+                <select id="serviceType" name="serviceType">
+                    <option value="wellness">Wellness Exam</option>
+                    <option value="vaccination">Vaccination</option>
+                    <option value="surgery">Surgery</option>
+                    <option value="dental">Dental Care</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="preferredDate">Preferred Date:</label>
+                <input type="date" id="preferredDate" name="preferredDate" required>
+            </div>
+            <div class="form-group">
+                <label for="preferredTime">Preferred Time:</label>
+                <input type="time" id="preferredTime" name="preferredTime" required>
+            </div>
+            <div class="form-group">
+                <label for="contactNumber">Contact Number:</label>
+                <input type="tel" id="contactNumber" name="contactNumber" placeholder="e.g., 123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                <small>Format: 123-456-7890</small>
+            </div>
+            <div class="form-group">
+                <label for="additionalInfo">Additional Information:</label>
+                <textarea id="additionalInfo" name="additionalInfo" rows="4" placeholder="Any additional information or special requests"></textarea>
+            </div>
+            <button type="submit" class="btn">Submit</button>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <!-- Footer content goes here -->
+</footer>
+
+</body>
+</html>
